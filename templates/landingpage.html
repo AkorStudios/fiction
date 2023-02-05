@@ -1,0 +1,114 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="uisual" content="Made with Uisual (uisual.com)">
+    <meta name="author" content="#">
+    <meta name="description" content="#">
+    <meta name="referrer" content="unsafe-url">
+    <meta name="robots" content="index, follow">
+    <!-- SPEED -->
+    <link rel="preconnect" href="https://res.cloudinary.com">
+    <link rel="dns-prefetch" href="https://res.cloudinary.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <!-- LINK -->
+    <link rel="me" href="#">
+    <link rel="canonical" href="#">
+    <link rel="icon" type="image/png" href="#" sizes="48x48">
+    <!-- PERFORMANCE -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    <link rel="preload" as="style" href={% static '/css/landingpage.css'  %}>
+    <link rel="stylesheet" type ='text/css' href={% static '/css/landingpage.css'  %}>
+    <!-- TITLE -->
+    <title>FICTION</title>
+  </head>
+  <body>
+    <header role="banner" class="ui-section-header">
+      <div class="ui-layout-container">
+        <div class="ui-section-header__layout ui-layout-flex">
+          <!-- LOGO -->
+          <a href="/registration" role="link" aria-label="#">
+            <svg svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185.7 272.1" style="enable-background:new 0 0 185.7 272.1;" xml:space="preserve" height="55" width="55"><style type="text/css">
+              .st0{fill:#112A12;}
+            </style><path class="st0" d="M172,183.36c-1.56-2.55-2.55-4.82-2.27-5.11s16.6-10.21,36.32-22l35.76-21.42-36.47-61c-20-33.49-37-60.87-37.88-60.87-1.85.14-82.72,49.23-89.1,54.06-7.1,5.53-16,19.72-19.44,30.5a65.49,65.49,0,0,0-.14,37.32c3.12,9.79,67.67,118.9,76.47,129.25,12.49,14.48,31.07,21.85,52.36,20.86,10.92-.42,14-1.28,23.27-5.67,5.81-2.84,11.35-5.82,12.34-6.53,1.56-1-3.69-10.64-23.27-43C186.22,206.77,173.59,185.92,172,183.36Zm-46.4,10.08c-2.55,5.25-4.82,9.36-5.1,9.22S111,186.77,99.67,167.9c-13.62-22.7-21.14-36.75-22.28-41.57A44.3,44.3,0,0,1,89.74,84.75c3-2.83,20.14-14,38-24.83C157,42.19,160.54,40.34,162.24,42.47c2.41,3,20.15,32.35,20.15,33.34,0,.29-10.36,6.82-23,14.48s-23.83,14.47-24.83,15.32c-1.27,1.14-.57,3.41,3.27,9.65,4.39,7.23,5.39,8.09,7.8,6.67,1.56-.85,11.78-6.81,22.56-13.34s21-12.63,22.56-13.34c2.55-1.42,3.69-.14,13.05,15.47,5.53,9.36,9.93,17.31,9.65,17.59s-15.89,9.51-34.62,20.72C140.82,171.59,133.3,178,125.63,193.44Zm70.09,70.37c-.42.57-6.38.85-13.05.85-13.48,0-19.72-2.27-29.09-10.5-15.6-13.76-18.3-40.58-5.81-58.6,2.13-3,4.11-5.39,4.68-5.39C153.87,190.31,196.58,263,195.72,263.81Z" transform="translate(-56.16 -12.96)"/>
+            </svg>
+          </a>
+          <!-- MENU -->
+          <a href="whatsapp://send?text=http://www.fiction.com.ng"><svg viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" height="55" width="55" class="whatsapp-ico"> <style type="text/css">
+            .st0{fill:#112A12;}
+          </style><path class="st0" d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z" fill-rule="evenodd"></path></svg></a>
+        </div>
+      </div>
+    </header>
+    <main role="main">
+      <section class="ui-section-hero">
+        <div class="ui-layout-container">
+          <!-- COPYWRITING -->
+          <div class="ui-layout-column-6 ui-layout-column-center">
+            <h1>FICTION</h1>
+            <p class="ui-text-intro">Discover the Best Nigerian Short Stories, only available here on Fiction</p>
+            <!-- CTA -->
+            <div class="ui-component-cta ui-layout-flex">
+              <a href="/registration"><button class="ui-component-button ui-component-button-medium ui-component-button-primary">START READING</button><a/>
+          
+                <a href="https://wa.me/2348127908314?text=I%20want%20to%20write%20stories%20for%20Fiction"> <p class="ui-text-note"><small>Are you a Writer? Join the community of story lovers and share your tales with the world</small></p> <a/>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ui-section-content">
+        <div class="ui-layout-container">
+          <div class="ui-section-content__layout ui-layout-grid ui-layout-grid-2">
+            <div class="ui-component-card ui-layout-column-4">
+              <img src= {% static 'images/romance.svg' %} alt="#" loading="lazy" class="ui-component-card--image">
+              <h4 class="ui-component-card--title">Romance & Sex</h4>
+              <p>From steamy romance novels to erotic stories, readers will find a diverse selection of tales that explore the complexities of relationships and the power of human connection.</p>
+            </div>
+            <div class="ui-component-card ui-layout-column-4">
+              <img src= {% static 'images/horror.svg' %} alt="#" loading="lazy" class="ui-component-card--image">
+              <h4 class="ui-component-card--title">Thriller & Horror</h4>
+              <p>From suspenseful thrillers to spine-chilling horror stories, readers will find a selection of tales that will keep them on the edge of their seat. Whether you're looking for a heart-pounding mystery or a supernatural shocker, you'll find it here</p>
+            </div>
+            <div class="ui-component-card ui-layout-column-4">
+              <img src= {% static 'images/fantasy.svg' %} alt="#" loading="lazy" class="ui-component-card--image">
+              <h4 class="ui-component-card--title">Drama & Fantasy</h4>
+              <p>From fantastical tales of magic and wonder to gripping dramas that explore the human condition, readers will find a selection of stories that will transport them to a different place and time. Whether you're looking for a heartwarming tale of adventure or a thought-provoking exploration of the human soul, you'll find it here</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ui-section-close">
+        <div class="ui-layout-container">
+          <div class="ui-layout-column-6 ui-layout-column-center">
+            <h2>Find Your Next Favorite Story</h2>
+            <p class="ui-text-intro">Be part of a growing community of writers and readers. Share your stories and discover new tales</p>
+            <!-- CTA -->
+            <div class="ui-component-cta ui-layout-flex">
+                <a href="/registration"> <button type="submit" class="ui-component-button ui-component-button-medium ui-component-button-primary">Join Today</button><a/>
+              <a href="https://wa.me/2348127908314?text=I%20want%20to%20write%20stories%20for%20Fiction"> <p class="ui-text-note"><small>Are you a Writer? Join the community of story lovers and share your tales with the world</small></p> <a/>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer role="contentinfo" class="ui-section-footer">
+      <div class="ui-layout-container">
+        <div class="ui-section-footer__layout ui-layout-flex">
+          <!-- COPYRIGHT -->
+          <p class="ui-section-footer--copyright ui-text-note"><small>&copy; 2023 fiction</small></p>
+          <!-- MENU -->
+          <a href="whatsapp://send?text=http://www.fiction.com.ng" role="link" aria-label="#" class="ui-text-note"><small>Share</small></a>
+          <a href="https://wa.me/2348127908314?text=I%20want%20to%20support%20the%20Project,%20Fiction" role="link" aria-label="#" class="ui-text-note"><small>Donate</small></a>
+          <a href="https://wa.me/2348127908314?text=I%20want%20to%20inquire%20about%20Project%20Fiction" role="link" aria-label="#" class="ui-text-note"><small>Contact</small></a>
+        </div>
+      </div>
+    </footer>
+    </body>
+</html>
